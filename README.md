@@ -1,4 +1,6 @@
-*For SmartOS /opt/ is used as /lib is a read only filesystem.*
+*For SmartOS /opt/ is used as /lib is a read only filesystem.
+https://help.joyent.com/hc/en-us/articles/226687187-Read-only-file-systems-on-SmartOS-Instances
+*
 1. make
 2. pfexec make install
 2. pfexec mkdir -p /opt/lib/svc/method/
